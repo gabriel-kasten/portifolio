@@ -11,3 +11,10 @@
 4. Criar layout admin
 5. Criar layout card
 6. Criar layout skills
+
+Cores: 
+
+#117ce8 - azul
+#091627 - dark blue
+#3B40FD - purple
+#161B1F - gray

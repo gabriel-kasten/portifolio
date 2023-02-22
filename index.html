@@ -6,126 +6,42 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
-  <!-- Css -->
   <link rel="stylesheet" href="style.css">
 
-  <title>Gabriel Deglmann Kasten</title>
+  <title>Portifolio</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand text-light" href="#">Navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-          <li class="nav-item ">
-            <a class="nav-link text-light active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">About Me</a>
-          </li>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Projects</a>
-          </li>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Blog</a>
-          </li>
-      </div>
-    </div>
-  </nav>
+  <header>
+    <a href="index.html">
+      <img src="https://gabrielguedesoficial.com.br/wp-content/uploads/2019/12/500x500bege.png" alt="nav-logo"
+        class="nav-logo">
+    </a>
+    <nav>
+      <ul class="nav-options">
+        <li class="nav-itens"><a href="#" rel="noopener noreferrer">Home</a></li>
+        <li class="nav-itens"><a href="#" rel="noopener noreferrer">About Me</a></li>
+        <li class="nav-itens"><a href="#" target="_blank" rel="noopener noreferrer">Projects</a></li>
+      </ul>
+    </nav>
+    <button>Contact Me</button>
+  </header>
 
-  <div class="container-fluid d-flex flex-column row-gap-4" id="profile-section">
-    <div class="pt-5" id="img-wrapper">
-      <img
-        src="https://pps.whatsapp.net/v/t61.24694-24/299998412_608488467783117_617101995387975567_n.jpg?ccb=11-4&oh=01_AdRJZnCmSRp_koMkP8ac0UjuRgnkH0azyU5H9NXv5rAK_A&oe=64025B61"
-        class="img-fluid rounded-circle mx-auto d-block" alt="profile">
+  <div class="profile-section">
+    <div class="container">
+      <img id="profile-pic"
+        src="https://pps.whatsapp.net/v/t61.24694-24/299998412_608488467783117_617101995387975567_n.jpg?ccb=11-4&oh=01_AdSyaYy9IqFamClW0qEuSn2bTiazkx0-fK6mY5UQpmZPQQ&oe=64030421"
+        alt="profile-pic">
+      <h1 id="name-title" data-value="> Gabriel Deglmann Kasten <">> Gabriel Deglmann Kasten <</h1>
     </div>
-
-    <div class="m-auto d-flex flex-column align-items-center">
-      <h1 class="text-light text-uppercase" data-value="Gabriel Deglmann Kasten">Gabriel Deglmann Kasten</h2>
-        <p class="text-light">A passionate Self-taught Back-end developer, currently learning Web Development by Self
-        </p>
-    </div>
-
   </div>
 
-  <div class="container-fluid">
-
-    <div class="container d-flex flex-column pt-5">
-      <h3 class="mx-auto">About Me</h3>
-      
-      </div>
-    </div>
-
-
-    <div class="container d-flex flex-row column-gap-3 py-5">
-      <button type="button" class="btn btn-primary">
-        Front-end <span class="badge text-bg-secondary">4</span>
-      </button>
-
-      <button type="button" class="btn btn-primary">
-        Back-end <span class="badge text-bg-secondary">3</span>
-      </button>
-
-      <button type="button" class="btn btn-primary">
-        Fullstack <span class="badge text-bg-secondary">1</span>
-      </button>
-
-      <button type="button" class="btn btn-primary">
-        Others <span class="badge text-bg-secondary">3</span>
-      </button>
-    </div>
-
-
-
-    <div class="container pb-5">
-
-      <h3 class="pb-2">Front-End</h3>
-      <div class="d-flex align-content-stretch flex-wrap row-gap-5 column-gap-3">
-
-        <div class="card" aria-hidden="true">
-          <img src="https://placeholder.com/300.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title placeholder-glow">
-              <span class="placeholder col-6"></span>
-            </h5>
-            <p class="card-text placeholder-glow">
-              <span class="placeholder col-7"></span>
-              <span class="placeholder col-4"></span>
-              <span class="placeholder col-4"></span>
-              <span class="placeholder col-6"></span>
-              <span class="placeholder col-8"></span>
-            </p>
-            <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
-          </div>
-        </div>
-
-      </div>
-
-
-
-
-
-
-      <div class="container-fluid d-flex justify-content-center my-4">
-        <button type="button" class="btn btn-primary">Load More</button>
-      </div>
-
-
-
-
-
-    </div>
+  <div class="about-me-section">
+    <h2>About Me</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem iure doloremque odit eaque obcaecati expedita
+      ducimus praesentium enim ab consectetur exercitationem, sint totam illum, laborum perspiciatis est a veniam ea.
+    </p>
   </div>
 
 
@@ -139,13 +55,25 @@
 
 
 
-  <!-- JS Vanilla -->
+
+
+
+
+
+
+  <footer>
+    <div>Logo aqui</div>
+    <div>Redes sociais</div>
+    <div>Outros sites</div>
+  </footer>
+
+
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/4d6edd132c.js" crossorigin="anonymous"></script>
+
+  <!-- Js Vanilla -->
   <script src="main.js"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
 </body>
 
 </html>
